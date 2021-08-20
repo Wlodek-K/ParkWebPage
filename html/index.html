@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+    <html lang="pl">
+        <head>
+            <title>Rezerwa krajowa Tatry</title>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <meta name="description" content="Strona internetowa rezerwy krajową Tatry">
+            <meta name="keywords" content="mountains, poland, polska, tourism, góry, rezerwa, reserve, nature">
+            <link rel="stylesheet" href="../css/main.css">
+            <script src="https://kit.fontawesome.com/778edd207f.js" crossorigin="anonymous"></script>
+
+        </head>
+        <body>
+
+        <header class="header header_fixed">
+            <div class="container">
+
+                <div class="header_inner" >
+                    <div class="header_logo">
+                        <img src="../css/logo.png" class="logo">
+                    </div>
+
+                    <nav class="nav">
+                        <a class="nav_link" href="#firstSection">O nas</a>
+                        <a class="nav_link" href="#secondSection" >Statystyka</a>
+                        <a class="nav_link" href="#thirdSection">Galeria</a>
+                        <a class="nav_link" href="#fourthSection" >Kontakty</a>
+                    </nav>
+                </div>
+
+            </div>
+            <a href="#" class="arrowUp" id="top"></a>
+        </header>
+            <div class="intro" id="main">
+                <div class="container">
+
+                    <div class="intro_inner">
+                        <h1 class="intro_title">Poznaj bliżej naturę</h1>
+
+                        <a class="btn" href="#" id="modal_btn" data-modal="" type="button">Czytaj więcej</a>
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Ta strona internetowa została stworzona przez Volodymyra Kuryliaka i
+                                Violettę Cherkasheninovą</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        <section class="section" >
+            <div class="container">
+
+                <div class="section_header" id="firstSection">
+                    <h3 class="section_subtitle">Co my robimy</h3>
+                    <h2 class="section_title">Nasza działalność</h2>
+                    <div class="section_text">
+                        <p>Bardzo kochamy przyrodę, dlatego zachęcamy do przyłączenia się do nas.
+                            Każdy może przyczynić się do tej sprawy.
+                            Nasza społeczność ma szczerą nadzieję i czeka, aż wszyscy pokażą,
+                            że poza granicami miasta ukryty jest prawdziwy skarb w postaci naszej matki natury.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <div class="about_inner">
+                        <div class="about_img">
+                            <img src="../css/about/about_1.png" alt="">
+                        </div>
+                        <div class="about_text">zapirające krajobrazy</div>
+                    </div>
+                    <div class="about_inner">
+                        <div class="about_img">
+                            <img src="../css/about/about_2.jpg" alt="">
+                        </div>
+                        <div class="about_text">chronimy przyrodę</div>
+                    </div>
+                    <div class="about_inner">
+                        <div class="about_img">
+                            <img src="../css/about/about_3.jpg" alt="">
+                        </div>
+                        <div class="about_text">zachowujemy wspomnienia</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="statistics">
+            <div class="container" id="secondSection">
+
+                <div class="stat">
+                    <div class="stat_item">
+                        <div class="stat_count">221</div>
+                        <div class="stat_text">gatunków flory i fauny</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">8000</div>
+                        <div class="stat_text">turystów każdego roku</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">22000</div>
+                        <div class="stat_text">hektarów chronionych unikalnych górskich krajobrazów</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">6</div>
+                        <div class="stat_text">punktów alpejskich</div>
+                    </div>
+                    <div class="stat_item">
+                        <div class="stat_count">1550</div>
+                        <div class="stat_text">osób z nami pracuje</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="container" id="thirdSection">
+                <div class="section_header">
+                    <h3 class="section_subtitle">Galeria</h3>
+                    <h2 class="section_title">Nasze zdjęcia</h2>
+                </div>
+                <div class="slider">
+
+                    <!-- Zdjęcia -->
+                    <div class="item">
+                        <img src="../css/gallery/1572283411172283380.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="../css/gallery/Zakopane.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="../css/gallery/kwiaty.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="../css/gallery/olen.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="../css/gallery/Zakopane_at_night.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="../css/gallery/morskie_oko.jpg" alt="">
+                    </div>
+
+                    <!-- Przyciski strzałek -->
+                    <a class="previous" onclick="previousSlide()">&#10094;</a>
+                    <a class="next" onclick="nextSlide()">&#10095;</a>
+                </div>
+            </div>
+        </section>
+               <!-- teams -->
+        <section class="section">
+            <div class="container">
+                <div class="section_header" id="fourthSection">
+                    <h3 class="section_subtitle">Kim jesteśmy</h3>
+                    <h2 class="section_title">Poznaj naszą drużynę</h2>
+                    <div class="section_text">
+                        <p>Bardzo kochamy przyrodę, dlatego zachęcamy do przyłączenia się do nas.
+                            Każdy może przyczynić się do tej sprawy.
+                            Nasza społeczność ma szczerą nadzieję i czeka, aż wszyscy pokażą,
+                            że poza granicami miasta ukryty jest prawdziwy skarb w postaci naszej matki natury.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="../css/team/1.jpg" alt="">
+                            </div>
+                            <div class="about_text">
+                                <div class="social">
+                                    <a class="social_item" href="https://www.facebook.com/" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.instagram.com/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.tiktok.com/" target="_blank">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.pinterest.com/" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_info">
+                            <div class="team_name">Włodzimierz Kuryliak</div>
+                            <div class="team_prof">Założyciel społeczności</div>
+                        </div>
+                    </div>
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="../css/team/2.jpg" alt="">
+                            </div>
+                            <div class="about_text">
+                                <div class="social">
+                                    <a class="social_item" href="https://www.facebook.com/" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.instagram.com/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.tiktok.com/" target="_blank">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.pinterest.com/" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_info">
+                            <div class="team_name">Violetta Cherkasheninova</div>
+                            <div class="team_prof">Komunikacja ze społeczeństwem</div>
+                        </div>
+                    </div>
+                    <div class="about_item">
+                        <div class="about_inner">
+                            <div class="about_img">
+                                <img src="../css/team/3.jpg" alt="">
+                            </div>
+                            <div class="about_text">
+                                <div class="social">
+                                    <a class="social_item" href="https://www.facebook.com/" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a class="social_item" href="https://instagram.com/_aresa_132?igshid=u10wvnodfs72" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.tiktok.com/" target="_blank">
+                                        <i class="fab fa-tiktok"></i>
+                                    </a>
+                                    <a class="social_item" href="https://www.pinterest.com/" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_info">
+                            <div class="team_name">Machał Zawadski</div>
+                            <div class="team_prof">Główny fotograf</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="section section--gray">
+            <div class="container">
+
+                <div class="logos">
+                    <div class="logos_item">
+                        <img src="../css/logos/1.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img src="../css/logos/4.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img src="../css/logos/3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+         <section class="section section--map">
+             <div class="container">
+                 <div class="map">
+                     <h2 class="map_title">
+                         <div><i class="fas fa-map-marker-alt"></i></div>
+                         <a href="https://goo.gl/maps/Nto8QR2MFPcFLRrF7" target="_blank">Otwórz mapę</a>
+                     </h2>
+                 </div>
+             </div>
+         </section>
+
+          <footer class="footer">
+              <div class="container">
+
+                  <div class="footer_inner">
+                      <div class="footer_col footer_col--first">
+                          <div class="footer_logo">
+                              <img src="../css/logo_footer.png">
+                          </div>
+                          <div class="footer_text">Bardzo kochamy przyrodę, dlatego zachęcamy do przyłączenia się do nas.
+                              Każdy może przyczynić się do tej sprawy.
+                              Nasza społeczność ma szczerą nadzieję i czeka, aż wszyscy pokażą,
+                              że poza granicami miasta ukryty jest prawdziwy skarb w postaci naszej matki natury.
+                              Subskrybuj się, aby być pierwszym, który dowie się o wszystkim</div>
+                          <div class="footer_social">
+                              <div class="footer_social-header">
+                                  <b>15k</b> obserwujących
+                              </div>
+                              <div class="footer_social-content">
+                                  Podążaj za nami:
+                                  <a href="https://www.facebook.com/" target="_blank">
+                                      <i class="fab fa-facebook"></i>
+                                  </a>
+                                  <a href="https://www.instagram.com/" target="_blank">
+                                      <i class="fab fa-instagram"></i>
+                                  </a>
+                                  <a href="https://www.tiktok.com/" target="_blank">
+                                      <i class="fab fa-tiktok"></i>
+                                  </a>
+                                  <a href="https://www.pinterest.com/" target="_blank">
+                                      <i class="fab fa-pinterest-p"></i>
+                                  </a>
+                              </div>
+                          </div>
+
+                          <form class="subscribe" action="/" method="post">
+                              <input class="subscribe_input" type="email" name="name" placeholder="Twój email">
+                              <button class="subscribe_btn" type="submit">Subskrybuj</button>
+
+                          </form>
+                      </div>
+
+                      <div class="footer_col--second">
+                          <div class="footer_title">Kontakty</div>
+
+                          <div class="contacts">
+                              <h2 class="mob_title">Kontaktowy telefon:</h2>
+                              <h3 class="footer_text">+4883654328<br>+4882678021</h3>
+                              <h2 class="email_title">Email:</h2>
+                              <h3 class="footer_text">wlodzio92@gmail.com<br>violettaCH@gmail.com</h3>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+          </footer>
+         <script src="../script/scroll.js"></script>
+         <script src="../script/slider.js"></script>
+        <script src="../script/scrollTop.js"></script>
+        <script src="../script/menu.js"></script>
+        <script src="../script/modal.js"></script>
+        </body>
+    </html>
